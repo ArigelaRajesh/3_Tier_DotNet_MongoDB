@@ -47,21 +47,25 @@ To install MongoDB, execute the following commands in your terminal:
 
 1. **Add MongoDB's GPG key and repository:**
 
+  ```
+  sudo apt-get install gnupg curl
+  ```
+
    ```bash
-   curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \
-   sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg \
+   curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg \
    --dearmor
    ```
 
    ```bash
-   echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+   echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/ubuntu noble/mongodb-org/8.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-8.0.list
    ```
 
 2. **Install MongoDB:**
 
    ```bash
-   sudo apt update
-   sudo apt install -y mongodb-org
+   sudo apt-get update
+   sudo apt-get install -y mongodb-org
    ```
 
 3. **Enable and Start MongoDB service:**
@@ -166,6 +170,28 @@ To manipulate your MongoDB database using MongoDB Shell:
      ```bash
      db.Products.find().pretty();
      ```
+
+### Dashboard:
+![Screenshot (78)](https://github.com/user-attachments/assets/1b61a030-0583-42fe-9ba1-ad54d333af7e)
+
+### Added Products:
+![Screenshot (82)](https://github.com/user-attachments/assets/26a74c5c-93c9-4b61-bb98-c315dcf171ed)
+
+## View Product details:
+![Screenshot (83)](https://github.com/user-attachments/assets/ffb9fccc-c3a2-4e22-89b2-8ae6804c5b78)
+
+### Database operations:
+## After adding products:
+![Screenshot (79)](https://github.com/user-attachments/assets/458c2853-9106-4ee2-98e0-be1168bd8015)
+
+## updated the product details:
+![Screenshot (80)](https://github.com/user-attachments/assets/f6bc40fd-6615-466d-a9bc-d68ced00393f)
+
+## deletion of the product:
+![Screenshot (81)](https://github.com/user-attachments/assets/a6f1c6e2-63cd-4629-806c-44c678d31072)
+
+
+
 
 ## License
 

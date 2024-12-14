@@ -171,23 +171,23 @@ To manipulate your MongoDB database using MongoDB Shell:
      db.Products.find().pretty();
      ```
 
-### Dashboard:
+## Dashboard:
 ![Screenshot (78)](https://github.com/user-attachments/assets/1b61a030-0583-42fe-9ba1-ad54d333af7e)
 
 ### Added Products:
 ![Screenshot (82)](https://github.com/user-attachments/assets/26a74c5c-93c9-4b61-bb98-c315dcf171ed)
 
-## View Product details:
+### View Product details:
 ![Screenshot (83)](https://github.com/user-attachments/assets/ffb9fccc-c3a2-4e22-89b2-8ae6804c5b78)
 
-### Database operations:
-## After adding products:
+## Database operations:
+### After adding products:
 ![Screenshot (79)](https://github.com/user-attachments/assets/458c2853-9106-4ee2-98e0-be1168bd8015)
 
-## updated the product details:
+### updated the product details:
 ![Screenshot (80)](https://github.com/user-attachments/assets/f6bc40fd-6615-466d-a9bc-d68ced00393f)
 
-## deletion of the product:
+### deletion of the product:
 ![Screenshot (81)](https://github.com/user-attachments/assets/a6f1c6e2-63cd-4629-806c-44c678d31072)
 
 
